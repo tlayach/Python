@@ -11,5 +11,5 @@ Here is the code for a basic "Hello, World!" program in Python:
 
 ```python
 >>> print("Hello World")
-'Hello World'
+Hello World
 ```
