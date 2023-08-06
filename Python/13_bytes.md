@@ -5,7 +5,7 @@ In Python, bytes are a data type that represents a sequence of bytes. A byte is 
 Bytes are represented using the bytes data type, which can be created in several ways. One way is to use a byte literal, which is a sequence of bytes enclosed in either single quotes (b'...') or double quotes (b"...").
 
 ```python
-import base64
+>>> import base64
 ```
 
 Encode using base64:
@@ -23,7 +23,8 @@ Remove "b":
 'UGxhbmV0IEVhcnRo'
 ```
 
-Decode using base64
+Decode using base64:
+
 ```python
 >>> text = base64.b64decode(b64)
 >>> text
