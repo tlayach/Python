@@ -5,9 +5,11 @@
 Here is the code for a basic "Hello, World!" program in Python:
 
 ```python
-"Hello World"
+>>> "Hello World"
+'Hello World'
 ```
 
 ```python
-print("Hello World")
+>>> print("Hello World")
+'Hello World'
 ```
