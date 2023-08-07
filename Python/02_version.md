@@ -1,9 +1,9 @@
 # Python Version
 
-To get the Python version using Python, you can use the sys module which provides access to some variables used or maintained by the interpreter and to functions that interact strongly with the interpreter.
+To get the Python version using Python, you can use the ```sys``` module which provides access to some variables used or maintained by the interpreter and to functions that interact strongly with the interpreter.
 
 ```python
-import sys
+>>> import sys
 ```
 
 Here's an example of how you can get the Python version using Python:
