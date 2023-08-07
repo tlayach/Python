@@ -10,8 +10,6 @@ Here's an example of how to use the exit() function:
 >>> exit(0)
 ```
 
-You can also use the exit() function without any arguments to terminate the program with a status code of 0, which indicates successful termination.
-
 When the sys.exit(1) line is executed, the program will immediately terminate with a status code of 1.
 
 ```python
