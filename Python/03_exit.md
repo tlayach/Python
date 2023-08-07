@@ -4,7 +4,7 @@ In Python, the ```exit()``` function is a built-in function that allows you to t
 
 When the ```exit()``` function is called, the program stops executing and exits with a specified status code. If you don't provide a status code, the default status code is zero, which indicates successful termination.
 
-Here's an example of how to use the exit() function:
+Here's an example of how to use the ```exit()``` function:
 
 ```python
 >>> exit(0)
