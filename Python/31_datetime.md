@@ -98,21 +98,21 @@ Previous day.
 datetime.date(2022, 6, 5)
 ```
 
-Sunday from the current week
+Sunday from the current week.
 
 ```python
 >>> datetime.date.today() + datetime.timedelta(days=-datetime.date.today().weekday() - 1, weeks=0)
 datetime.date(2022, 6, 5)
 ```
 
-Monday from the current week
+Monday from the current week.
 
 ```python
 >>> datetime.date.today() + datetime.timedelta(days=-datetime.date.today().weekday(), weeks=0)
 datetime.date(2022, 6, 6)
 ```
 
-Monday from the previous week
+Monday from the previous week.
 
 ```python
 >>> datetime.date.today() + datetime.timedelta(days=-datetime.date.today().weekday(), weeks=-1)
