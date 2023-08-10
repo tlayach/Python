@@ -313,7 +313,6 @@ Frequency of words that have the previous word the word "is" and it finishes wit
 
 ```python
 >>> freq_dict = {}
-
 >>> for i in range(1, len(words)):
     if words[i].endswith("ed") and words[i-1] == "is":
         word = words[i].lower()
