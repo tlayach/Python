@@ -98,7 +98,6 @@ Frequency of each word.
 
 ```python
 >>> freq_dict = {}
-
 >>> for word in words:
     if word in freq_dict:
         freq_dict[word] += 1
@@ -107,6 +106,7 @@ Frequency of each word.
 
 >>>> for word, freq in freq_dict.items():
     print(f"'{word}': {freq}")
+
 'Isaac': 1
 'Newton': 7
 'was': 4
@@ -284,7 +284,6 @@ Frequency of each phrase.
 
 ```python
 >>> freq_dict = {}
-
 >>> for phrase in sentences:
     if phrase in freq_dict:
         freq_dict[phrase] += 1
@@ -292,7 +291,8 @@ Frequency of each phrase.
         freq_dict[phrase] = 1
 
 >>> for phrase, freq in freq_dict.items():
-    print(f"'{phrase.strip()}': {freq}")
+    print(f"'{phrase.strip()}': {freq}"
+
 'Isaac Newton was an English physicist, mathematician, and astronomer who lived from 1643 to 1727': 1
 'He is considered one of the most important figures in the history of science, and his contributions to the fields of physics and mathematics have had a profound impact on the modern world': 1
 'Newton is perhaps best known for his work on the laws of motion and universal gravitation': 1
