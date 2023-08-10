@@ -85,7 +85,7 @@ Use regex to split the text into words.
 
 ```python
 >>> words = re.findall(pattern=r"\b\w+\b", string=text)
->>> words[0:7] # first 7 words
+>>> words[0:7]  # first 7 words
 ['Isaac', 'Newton', 'was', 'an', 'English', 'physicist', 'mathematician']
 ```
 
