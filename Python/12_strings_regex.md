@@ -59,6 +59,9 @@ Removes symbols from the file name except the dot
 >>> w = r"016_test,file-peter_.name_123//111\\99.pdf"
 >>> w
 '016_test_file_peter_.name_123//111_99.pdf'
+```
+
+```python
 >>> re.sub(pattern=r"[^0-9a-zA-Z:.-:]+", repl="_", string=w)
 016_test_file_peter_.name_123_111_99.pdf
 ```
