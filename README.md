@@ -46,6 +46,7 @@ Some Python libraries for Data Science.
 |-------------------|-----------------------------------------------------|
 | JetBrains PyCharm | [jetbrains.com](https://www.jetbrains.com/pycharm/) |
 | Jupyter           | [jupyter.org](https://jupyter.org/)                 |
+| Kate              | [kate-editor.org](https://kate-editor.org/)         |
 | Microsoft VS Code | [visualstudio.com](https://code.visualstudio.com/)  |
 | Neovim            | [neovim.io](https://neovim.io/)                     |
 | Spyder            | [spyder-ide.org](https://www.spyder-ide.org/)       |
